@@ -1,7 +1,9 @@
 import clsx from "clsx"
 import useMacbookStore from "../store"
 import { Canvas } from "@react-three/fiber"
-import { OrbitControls } from "@react-three/drei"
+import { OrbitControls,Box } from "@react-three/drei"
+
+
 
 const ProductViewer = () => {
     const {color, scale, setColor, setScale} = useMacbookStore()
